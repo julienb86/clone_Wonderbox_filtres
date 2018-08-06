@@ -1,0 +1,83 @@
+.retour {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.retour a{
+	text-decoration: none;
+	color: black;
+	padding-left: 10px;
+}
+
+.fa-plus {
+	position: absolute;
+	right: 15px;
+	color: #FE3873;
+}
+.liens{
+	position: relative;
+	border-top: 1px solid #c4c2c2;
+	margin-top: 15px;
+	padding-top: 15px;
+	font-size: 0.9em;
+	letter-spacing: 0.5px;
+}
+
+#formulaire p{
+	font-weight: lighter;
+}
+
+#section {
+	font-weight: bolder;
+}
+
+
+/*etranger*/
+#liste-pays {
+	display: none;
+}
+ 
+#pays {
+	font-weight: lighter;
+}
+
+/*essai localisation*/
+
+.rechercher { 
+	position: relative; 
+}
+.rechercher input[type="text"] 
+{ position: absolute; left: 0; width: 10%; 
+}
+.rechercher button[type="submit"] { 
+	position: absolute; right: 800px; 
+}
+
+
+/*partcicipants*/
+
+.container {
+	display: none;
+	width: 400px;
+	margin-top: 15px;
+	word-spacing: 3px;
+}
+
+.bouton {
+	
+	border: solid 1px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+}
+
+.bouton:hover{
+	color: #FE3873;
+}
+
+.alignement {
+	display: flex;
+	justify-content: space-between;
+}
